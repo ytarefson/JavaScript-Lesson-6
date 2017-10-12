@@ -1,0 +1,79 @@
+[ 
+  {
+    "id":1, 
+    "name": "htc",
+    "href": "../img/phone1.png",
+    "price": 1000,
+    "desc": "Description of htc"
+  },
+  {
+    "id":2, 
+    "name": "samsung",
+    "href": "../img/phone2.png",
+    "price": 1000,
+    "desc": "Description of samsung"
+  },
+  {
+    "id":3, 
+    "name": "apple",
+    "href": "../img/phone3.png",
+    "price": 1000,
+    "desc": "Description of apple"
+  },
+  {
+    "id":4, 
+    "name": "huawei",
+    "href": "../img/phone4.png",
+    "price": 1000,
+    "desc": "Description of huawei"
+  },
+  {
+    "id":5, 
+    "name": "nokia",
+    "href": "../img/phone5.png",
+    "price": 1000,
+    "desc": "Description of nokia"
+  },
+  {
+    "id":6, 
+    "name": "motorolla",
+    "href": "../img/phone6.png",
+    "price": 1000,
+    "desc": "Description of motorolla"
+  },
+  {
+    "id":7, 
+    "name": "lg",
+    "href": "../img/phone7.png",
+    "price": 1000,
+    "desc": "Description of lg"
+  },
+  {
+    "id":8, 
+    "name": "asus",
+    "href": "../img/phone8.png",
+    "price": 1000,
+    "desc": "Description of asus"
+  },
+  {
+    "id":9, 
+    "name": "lenovo",
+    "href": "../img/phone9.png",
+    "price": 1000,
+    "desc": "Description of lenovo"
+  },
+  {
+    "id":10, 
+    "name": "fly",
+    "href": "../img/phone10.png",
+    "price": 1000,
+    "desc": "Description of fly"
+  },
+  {
+  	"id":11, 
+  	"name": "xiaomi",
+  	"href": "../img/phone11.png",
+  	"price": 1000,
+  	"desc": "Description of xiaomi"
+  }
+]

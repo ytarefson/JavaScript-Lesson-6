@@ -1,0 +1,280 @@
+@import url("https://fonts.googleapis.com/css?family=Modak|Nosifer");
+body {
+  padding: 0;
+  padding-top: 10px;
+  margin: 0;
+  background: url("../img/curls.png"); }
+
+.hidden {
+  display: none; }
+
+.wrapper {
+  width: 900px;
+  margin: 0 auto;
+  background-color: #FEFEEF;
+  padding: 20px;
+  -webkit-box-shadow: 9px 12px 21px 0px rgba(255, 255, 255, 0.4);
+  box-shadow: 9px 12px 21px 0px rgba(255, 255, 255, 0.4); }
+
+hr {
+  margin: 10px 0; }
+
+header h1 {
+  font-family: "Nosifer", cursive;
+  font-size: 30px; }
+  header h1 span {
+    color: #CB2121; }
+
+.nav {
+  display: block;
+  margin: 0 auto;
+  padding: 0;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-content: center;
+      -ms-flex-line-pack: center;
+          align-content: center; }
+  .nav a {
+    display: block;
+    padding: 0 15px;
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 22px;
+    font-family: "Nosifer", cursive;
+    color: #CB2121; }
+  .nav li {
+    display: inline-block;
+    list-style-type: none;
+    padding: 0 0;
+    border-left: 2px solid black; }
+    .nav li:last-child {
+      border-right: 2px solid black; }
+
+.slide {
+  background-color: grey;
+  margin-bottom: 10px;
+  padding: 10px;
+  display: block;
+  width: 100px;
+  height: 100%;
+  border: 2px solid #CB2121;
+  -webkit-border-radius: 5px;
+  border-radius: 5px;
+  background-color: #FEFEEF;
+  -webkit-box-shadow: 5px 6px 6px 0px rgba(0, 0, 0, 0.35);
+  box-shadow: 5px 6px 6px 0px rgba(0, 0, 0, 0.35); }
+  .slide img {
+    margin: 0;
+    width: 100px;
+    height: 100px;
+    -webkit-border-radius: 5px;
+            border-radius: 5px; }
+  .slide .productName {
+    display: block;
+    margin: 5px;
+    padding: 0;
+    color: #CB2121;
+    font-family: "Nosifer", cursive;
+    font-size: 14px; }
+  .slide .productPrice {
+    display: block;
+    text-align: center;
+    color: #CB2121;
+    font-family: "Nosifer", cursive;
+    font-size: 20px;
+    margin: 5px;
+    border: 2px solid #CB2121;
+    -webkit-border-radius: 5px;
+            border-radius: 5px;
+    background-color: #FEFEEF; }
+  .slide .productPrice:hover {
+    cursor: pointer;
+  } 
+
+.contacts {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-content: center;
+      -ms-flex-line-pack: center;
+          align-content: center; }
+  .contacts .formBox {
+    width: 550px;
+    padding: 20px;
+    margin: 10px;
+    border: 2px solid #CB2121;
+    -webkit-border-radius: 5px;
+            border-radius: 5px;
+    -webkit-box-shadow: 5px 6px 6px 0px rgba(0, 0, 0, 0.35);
+            box-shadow: 5px 6px 6px 0px rgba(0, 0, 0, 0.35); }
+    .contacts .formBox legend {
+      font-family: "Nosifer", cursive;
+      font-size: 24px;
+      font-weight: 700;
+      padding: 10px 20px; }
+    .contacts .formBox .inputBox {
+      display: block;
+      position: relative;
+      padding: 10px 10px;
+      -webkit-transition-duration: 3s;
+           -o-transition-duration: 3s;
+              transition-duration: 3s;
+      -webkit-transition-timing-function: ease-out;
+           -o-transition-timing-function: ease-out;
+              transition-timing-function: ease-out;
+      /* 			& .active {
+				top: -10px;
+			}  */ }
+      .contacts .formBox .inputBox #valid {
+        color: green; }
+      .contacts .formBox .inputBox .labelText {
+        position: absolute;
+        left: 50px;
+        font-family: "Nosifer", cursive;
+        font-size: 18px;
+        -webkit-transition: .5s;
+        -o-transition: .5s;
+        transition: .5s; }
+      .contacts .formBox .inputBox .userInput {
+        display: block;
+        border: none;
+        border-bottom: 1px solid grey;
+        width: 300px;
+        margin: 0 auto;
+        padding: 10px 10px;
+        padding-left: 30px;
+        padding-top: 15px;
+        padding-bottom: 0px;
+        font-family: serif;
+        font-style: bold;
+        font-size: 18px;
+        background: transparent;
+        line-height: 30px; }
+        .contacts .formBox .inputBox .userInput:focus {
+          outline: none;
+          border-bottom: 2px solid black; }
+
+.contacts .formBox .agree {
+  display: block;
+  margin: 0 auto;
+  font-family: sans-serif; }
+
+.contacts .formBox .active .labelText {
+  -webkit-transform: translateY(-15px);
+      -ms-transform: translateY(-15px);
+          transform: translateY(-15px);
+  color: #CB2121; }
+
+.contacts .formBox .button {
+  display: block;
+  float: right;
+  margin: 10px;
+  padding: 15px;
+  border: 2px solid #CB2121;
+  -webkit-border-radius: 5px;
+          border-radius: 5px;
+  -webkit-box-shadow: 2px 2px 2px 0px rgba(0, 0, 0, 0.45);
+          box-shadow: 2px 2px 2px 0px rgba(0, 0, 0, 0.45); }
+  .contacts .formBox .button:hover {
+    background-color: grey;
+    cursor: pointer; }
+
+.contacts .formBox .sent {
+  border: 1px solid green; }
+
+footer {
+  display: block;
+  background: #4c4c4c;
+  /* Old browsers */
+  /* FF3.6-15 */
+  background: -webkit-linear-gradient(top, #4c4c4c 0%, #666666 1%, #595959 2%, #474747 8%, #2c2c2c 11%, black 88%, #111111 91%, #1c1c1c 97%, #2b2b2b 98%, #2b2b2b 98%, #131313 100%);
+  /* Chrome10-25,Safari5.1-6 */
+  background: -webkit-gradient(linear, left top, left bottom, from(#4c4c4c), color-stop(1%, #666666), color-stop(2%, #595959), color-stop(8%, #474747), color-stop(11%, #2c2c2c), color-stop(88%, black), color-stop(91%, #111111), color-stop(97%, #1c1c1c), color-stop(98%, #2b2b2b), color-stop(98%, #2b2b2b), to(#131313));
+  background: -o-linear-gradient(top, #4c4c4c 0%, #666666 1%, #595959 2%, #474747 8%, #2c2c2c 11%, black 88%, #111111 91%, #1c1c1c 97%, #2b2b2b 98%, #2b2b2b 98%, #131313 100%);
+  background: linear-gradient(to bottom, #4c4c4c 0%, #666666 1%, #595959 2%, #474747 8%, #2c2c2c 11%, black 88%, #111111 91%, #1c1c1c 97%, #2b2b2b 98%, #2b2b2b 98%, #131313 100%);
+  /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#4c4c4c', endColorstr='#131313',GradientType=0 );
+  /* IE6-9 */
+  height: 100%;
+  -webkit-box-shadow: 9px 12px 21px 0px rgba(255, 255, 255, 0.4);
+  box-shadow: 9px 12px 21px 0px rgba(255, 255, 255, 0.4); }
+
+footer .social-container {
+  width: 900px;
+  padding-top: 25px;
+  margin: 0 auto;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  height: 100%;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+      -ms-flex-direction: column;
+          flex-direction: column; }
+
+footer .social-container .social {
+  display: block;
+  padding: 15px;
+  margin: 0 auto;
+  margin-bottom: 20px;
+  border: 2px solid #FEFEEF;
+  -webkit-border-radius: 15px;
+          border-radius: 15px; }
+
+footer .social-container .social li {
+  display: inline-block;
+  list-style-type: none;
+  padding: 0; }
+
+footer .social-container .social li a {
+  display: inline-block;
+  width: 64px;
+  height: 64px; }
+
+footer .social-container .social li .twitter {
+  width: 64px;
+  height: 64px;
+  background: url("../img/social-sprite.png") -514px -10px; }
+  footer .social-container .social li .twitter:hover {
+    background: url("../img/social-sprite.png") -178px -10px; }
+
+footer .social-container .social li .facebook {
+  width: 64px;
+  height: 64px;
+  background: url("../img/social-sprite.png") -346px -10px; }
+  footer .social-container .social li .facebook:hover {
+    background: url("../img/social-sprite.png") -262px -10px; }
+
+footer .social-container .social li .instagram {
+  width: 64px;
+  height: 64px;
+  background: url("../img/social-sprite.png") -598px -10px; }
+  footer .social-container .social li .instagram:hover {
+    background: url("../img/social-sprite.png") -10px -10px; }
+
+footer .social-container .social li .vk {
+  width: 64px;
+  height: 64px;
+  background: url("../img/social-sprite.png") -430px -10px; }
+  footer .social-container .social li .vk:hover {
+    background: url("../img/social-sprite.png") -94px -10px; }
+
+.social-container .social li a .icon {
+  width: 60px;
+  height: 100px; }
+  .social-container .social li a .icon:hover {
+    color: #FEFEEF; }
+
+.copyright {
+  font-family: "Nosifer", cursive;
+  font-weight: 100;
+  font-size: 14px;
+  color: #FEFEEF;
+  display: block;
+  margin: 0 auto;
+  padding-bottom: 20px; }
